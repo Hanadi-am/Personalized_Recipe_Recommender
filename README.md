@@ -5,7 +5,7 @@ Food is the source of energy, having food high in nutritional value is important
 ## Data
 Original dataset was obtained from this GitHub repo which contains (35516 instances & 47 feature).
 https://github.com/shaansubbaiah/allrecipes-scraper/tree/main/export
-However, for this project I will use only 10 features which are:
+However, for this project I will use only 11 features which are:
 | Feature         | Description |
 |  :---:          |   :---:     |
 |  name           | recipe name |

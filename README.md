@@ -10,14 +10,14 @@ For this project I will be using 13 features which are:
 | Feature         | Description |
 |  :---:          |   :---:     |
 |  name           | recipe name |
-| category        | Recipe category, example (main dish, desserts, bread, ... ect) |
+| category        | Recipe category, example (main dish, desserts, bread, world-cuisine ... ect) |
 | rating          | Recipe rating |
 | rating count    | Number of ratings |
 | url             | link to this recipe |
 | ingredients     | ingredients used in this recipe |
 | total           | total recipe time, preparation and cooking time |
 | servings        | number of servings in this recipe |
-| yield           | what will this recipe yield, example (3 cups, 12 cupcakes, ... ect) |
+| yield           | what will this recipe yield, example (4 servings, 3 cups, 12 cupcakes, ... ect) |
 | calories        | amount of calories per serving |
 | carbohydrates_g | grams of carbohydrate per serving |
 | fat_g           | grams of fat per serving |

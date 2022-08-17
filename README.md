@@ -9,7 +9,7 @@ Original dataset contained 35,516 instances & 47 feature. The dataset was scrapp
 https://github.com/shaansubbaiah/allrecipes-scraper/tree/main/export
 
 For this project, after cleaning the original dataset and saving it in data file as (full_cleaned_data).
-The final data shape was 19,265 instances and 14 feature which are:
+The final data shape was 19,224 instances and 14 feature which are:
 | Feature         | Description |
 |  :---:          |   :---:     |
 |  name           | recipe name |

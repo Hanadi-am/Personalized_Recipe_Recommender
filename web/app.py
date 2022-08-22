@@ -3,8 +3,6 @@ import pandas as pd
 import joblib
 header = st.beta_container()
 recommendation_system = st.beta_container()
-##read the data
-recipes = pd.read_csv('../data/full_clean_data.csv')
 
 with header:
     st.title('Welcome to Personalized Recipy Recommendation!!')
@@ -16,10 +14,10 @@ with recommendation_system:
     c = st.slider('How many grams of carbohydrate per serving do you prefer?', 0, 123)
     d = st.slider('How many grams of fat per serving do you prefer?', 0, 28)
     e = st.slider('How many grams of protein per serving do you prefer?', 0, 63)
-    ##click done/recommend
+    ##click the recommend button
     if st.button('Recommend Recipies Please :)'):
         #unpack the recommendation function
-        model = joblib.load('model.pkl')
+        model = joblib.load('the_model.pkl')
         #get recommendation
         recommend = model.predict(a, b, c, d, e)[0]
         # Output recommendation

@@ -1,12 +1,12 @@
+# pylint: disable=missing-module-docstring
+# pylint: disable=missing-class-docstring
+# pylint: disable=missing-function-docstring
 import streamlit as st
-import pandas as pd
 import joblib
 header = st.beta_container()
 recommendation_system = st.beta_container()
-
 with header:
     st.title('Welcome to Personalized Recipy Recommendation!!')
-    
 with recommendation_system:
     st.header('Please customize your inpur below')
     a = st.slider('How much time you have to cook?', 1, 1440)
@@ -22,3 +22,4 @@ with recommendation_system:
         recommend = model.predict(a, b, c, d, e)[0]
         # Output recommendation
         st.text(f"This instance is a {recommend}")
+        

@@ -28,15 +28,15 @@ The final data shape was 19,179 instances and 14 features which are:
 | ingredients_parsed | ingredients after cleaning measurements, punctuations & common words|
 ## Folders
 ### data: 
-full_cleaned.csv, scrapped-07-05-21.csv (cleaned & original data
+full_cleaned.csv, scrapped-07-05-21.csv (cleaned & original data files).
 ### model: 
-model.ipynb  (the recommending system model)
+model.ipynb  (the recommending system model).
 ### scr: 
-Recipe.ipynb (jupyter notebook contains data cleaning & EDA)
+Recipe.ipynb (data cleaning codes & EDA).
 ### web:
-app.py, requirements.txt, the_model.pkl (streamlit app but it's not working yet)
+app.py, requirements.txt, the_model.pkl (streamlit app but it's not working yet).
 ## References
-Presentation references:
+### Presentation references:
 1. Human energy requirements. Retrieved 23 August 2022, from https://www.fao.org/3/y5686e/y5686e04.htm
 2. Subbaiah, S. (2021). GitHub - shaansubbaiah/allrecipes-scraper: 🥗 Scrapy spider to scrape recipe and nutritional data from allrecipes.com. Retrieved 23 August 2022, from https://github.com/shaansubbaiah/allrecipes-scraper
 3. ML - Content Based Recommender System - GeeksforGeeks. (2020). Retrieved 23 August 2022, from https://www.geeksforgeeks.org/ml-content-based-recommender-system/
@@ -44,7 +44,7 @@ Presentation references:
 5. Cosine Similarity - GeeksforGeeks. (2020). Retrieved 23 August 2022, from https://www.geeksforgeeks.org/cosine-similarity/
 6. C program to find the Euclidean distance between two points - GeeksforGeeks. (2021). Retrieved 23 August 2022, from https://www.geeksforgeeks.org/c-program-to-find-the-euclidean-distance-between-two-points/
 7. COSINE DISTANCE COSINE SIMILARITY ANGULAR COSINE DISTANCE ANGULAR COSINE SIMILARITY. (2017). Retrieved 23 August 2022, from https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/cosdist.htm \
-Codes function used/guidance references:
+### Codes function used/guidance references:
 https://stackoverflow.com/questions/35970760/convert-1h30min-string-to-minutes-in-python \
 https://github.com/jackmleitch/whatscooking-deployment \
 https://www.kaggle.com/code/yyzz1010/content-based-filtering-recipe-recommender 

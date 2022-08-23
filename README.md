@@ -41,9 +41,8 @@ app.py, requirements.txt, the_model.pkl (streamlit app but it's not working yet)
 2. Subbaiah, S. (2021). GitHub - shaansubbaiah/allrecipes-scraper: 🥗 Scrapy spider to scrape recipe and nutritional data from allrecipes.com. Retrieved 23 August 2022, from https://github.com/shaansubbaiah/allrecipes-scraper
 3. ML - Content Based Recommender System - GeeksforGeeks. (2020). Retrieved 23 August 2022, from https://www.geeksforgeeks.org/ml-content-based-recommender-system/
 4. Shimodaira, H. (2015). Similarity and recommender systems. Retrieved 23 August 2022, from https://www.inf.ed.ac.uk/teaching/courses/inf2b/learnnotes/inf2b-learn-note02-2up.pdf
-5. Cosine Similarity - GeeksforGeeks. (2020). Retrieved 23 August 2022, from https://www.geeksforgeeks.org/cosine-similarity/
-6. C program to find the Euclidean distance between two points - GeeksforGeeks. (2021). Retrieved 23 August 2022, from https://www.geeksforgeeks.org/c-program-to-find-the-euclidean-distance-between-two-points/
-7. COSINE DISTANCE COSINE SIMILARITY ANGULAR COSINE DISTANCE ANGULAR COSINE SIMILARITY. (2017). Retrieved 23 August 2022, from https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/cosdist.htm \
+5. C program to find the Euclidean distance between two points - GeeksforGeeks. (2021). Retrieved 23 August 2022, from https://www.geeksforgeeks.org/c-program-to-find-the-euclidean-distance-between-two-points/
+
 ### Codes function used/guidance references:
 https://stackoverflow.com/questions/35970760/convert-1h30min-string-to-minutes-in-python \
 https://github.com/jackmleitch/whatscooking-deployment \

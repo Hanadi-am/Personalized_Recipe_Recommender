@@ -9,7 +9,7 @@ Original dataset contained 35,516 instances & 47 feature. The dataset was scrapp
 https://github.com/shaansubbaiah/allrecipes-scraper/tree/main/export
 
 For this project, after cleaning the original dataset and saving it in data file as (full_cleaned_data).
-The final data shape was 19,224 instances and 14 features which are:
+The final data shape was 19,179 instances and 14 features which are:
 | Feature         | Description |
 |  :---:          |   :---:     |
 |  name           | recipe name |
@@ -27,8 +27,20 @@ The final data shape was 19,224 instances and 14 features which are:
 | protein_g       | grams of protein per serving |
 | ingredients_parsed | ingredients after cleaning measurements, punctuations & common words|
 ## Folders
-scr: data cleaning & EDA
-model: the recommending system model
-web: the streamlit app
-data: both cleaned & original(uncleaned) data
+scr: Recipe.ipynb (jupyter notebook contains data cleaning & EDA)\
+model: model.ipynb  (the recommending system model)\
+web: app.py, requirements.txt, the_model.pkl (streamlit app but it's not working yet) \
+data: full_cleaned.csv, scrapped-07-05-21.csv (cleaned & original data)\
 ## References
+Presentation references:
+1. Human energy requirements. Retrieved 23 August 2022, from https://www.fao.org/3/y5686e/y5686e04.htm
+2. Subbaiah, S. (2021). GitHub - shaansubbaiah/allrecipes-scraper: 🥗 Scrapy spider to scrape recipe and nutritional data from allrecipes.com. Retrieved 23 August 2022, from https://github.com/shaansubbaiah/allrecipes-scraper
+3. ML - Content Based Recommender System - GeeksforGeeks. (2020). Retrieved 23 August 2022, from https://www.geeksforgeeks.org/ml-content-based-recommender-system/
+4. Shimodaira, H. (2015). Similarity and recommender systems. Retrieved 23 August 2022, from https://www.inf.ed.ac.uk/teaching/courses/inf2b/learnnotes/inf2b-learn-note02-2up.pdf
+5. Cosine Similarity - GeeksforGeeks. (2020). Retrieved 23 August 2022, from https://www.geeksforgeeks.org/cosine-similarity/
+6. C program to find the Euclidean distance between two points - GeeksforGeeks. (2021). Retrieved 23 August 2022, from https://www.geeksforgeeks.org/c-program-to-find-the-euclidean-distance-between-two-points/
+7. COSINE DISTANCE COSINE SIMILARITY ANGULAR COSINE DISTANCE ANGULAR COSINE SIMILARITY. (2017). Retrieved 23 August 2022, from https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/cosdist.htm
+Codes function used/guidance references:
+https://stackoverflow.com/questions/35970760/convert-1h30min-string-to-minutes-in-python 
+https://github.com/jackmleitch/whatscooking-deployment
+https://www.kaggle.com/code/yyzz1010/content-based-filtering-recipe-recommender 

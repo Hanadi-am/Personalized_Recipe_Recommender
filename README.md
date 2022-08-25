@@ -39,9 +39,10 @@ app.py, requirements.txt, the_model.pkl (streamlit app but it's not working yet)
 ### Presentation references:
 1. Human energy requirements. Retrieved 23 August 2022, from https://www.fao.org/3/y5686e/y5686e04.htm
 2. Subbaiah, S. (2021). GitHub - shaansubbaiah/allrecipes-scraper: 🥗 Scrapy spider to scrape recipe and nutritional data from allrecipes.com. Retrieved 23 August 2022, from https://github.com/shaansubbaiah/allrecipes-scraper
-3. ML - Content Based Recommender System - GeeksforGeeks. (2020). Retrieved 23 August 2022, from https://www.geeksforgeeks.org/ml-content-based-recommender-system/
-4. Shimodaira, H. (2015). Similarity and recommender systems. Retrieved 23 August 2022, from https://www.inf.ed.ac.uk/teaching/courses/inf2b/learnnotes/inf2b-learn-note02-2up.pdf
-5. C program to find the Euclidean distance between two points - GeeksforGeeks. (2021). Retrieved 23 August 2022, from https://www.geeksforgeeks.org/c-program-to-find-the-euclidean-distance-between-two-points/
+3. Chapter 9 Recommendation Systems. Retrieved 25 August 2022, from http://infolab.stanford.edu/~ullman/mmds/ch9.pdf
+4. ML - Content Based Recommender System - GeeksforGeeks. (2020). Retrieved 23 August 2022, from https://www.geeksforgeeks.org/ml-content-based-recommender-system/
+5. Shimodaira, H. (2015). Similarity and recommender systems. Retrieved 23 August 2022, from https://www.inf.ed.ac.uk/teaching/courses/inf2b/learnnotes/inf2b-learn-note02-2up.pdf
+6. C program to find the Euclidean distance between two points - GeeksforGeeks. (2021). Retrieved 23 August 2022, from https://www.geeksforgeeks.org/c-program-to-find-the-euclidean-distance-between-two-points/
 
 ### Codes function used/guidance references:
 https://stackoverflow.com/questions/35970760/convert-1h30min-string-to-minutes-in-python \
